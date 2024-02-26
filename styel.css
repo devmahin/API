@@ -1,0 +1,16 @@
+#show {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+#show div{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#show h1{
+    text-align: center;
+    color: red;
+
+}
