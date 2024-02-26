@@ -27,7 +27,22 @@ let product = {
 
 // let json = JSON.stringify(product)
 // console.dir(json)
-const name = "https://jsonplaceholder.typicode.com/todos/1";
-fetch(name)
-      .then(response => response.json())
-      .then(json => console.log(json))
+// const name = "https://jsonplaceholder.typicode.com/todos/1";
+// fetch(name)
+//       .then(response => response.json())
+//       .then(json => console.log(json))
+
+
+
+function loadUser(){
+    
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(res => res.json())
+.then(data => myFunction(data))
+
+}
+
+
+function myFunction(a){
+    
+}
