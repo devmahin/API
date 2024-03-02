@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <header class="mx-auto container flex justify-center">
+        <nav class="py-5 flex gap-x-4" id="category">
+            <!-- <button class="">Category</button> -->
+        </nav>
+    </header>
+    <main class="container mx-auto">
+        <section class="flex justify-center py-10">
+            <div class="flex">
+                <input type="text" id="inputValue" placeholder="Type here"
+                    class="input input-bordered w-full max-w-xs" />
+                <button onclick="handelSearch()" class="btn btn-secondary">Search</button>
+            </div>
+        </section>
+        <div id="lodding" class="flex justify-center border-3 hidden">
+            <img src="https://onlinegiftools.com/images/examples-onlinegiftools/sub-zero-mk-without-background.gif"
+                alt="">
+        </div>
+        <section id="allCard" class="grid grid-cols-1z gap-5">
+
+
+            <!-- <div class="card card-side bg-base-100 shadow-xl">
+                <figure><img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">New movie is released!</h2>
+                    <p>Click the button to watch on Jetflix app.</p>
+                    <div class="flex justify-between">
+                        <div class="flex items-center justify-between gap-x-5">
+                            <div class="avatar">
+                                <div class="w-12 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div>
+                            <div class="flex flex-col">
+                                <h1>Mahin howlader</h1>
+                                <h1>Date</h1>
+                            </div>
+                            <h1>Watch</h1>
+                        </div>
+                        <button class="btn btn-primary">Watch</button>
+
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <section>
+            <!-- Open the modal using ID.showModal() method -->
+            <!-- <button class="btn" onclick="">open modal</button> -->
+            <dialog id="modal_hello" class="modal modal-bottom sm:modal-middle">
+              
+            </dialog>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
